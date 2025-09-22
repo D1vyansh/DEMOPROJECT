@@ -1,8 +1,6 @@
 # 🔐 Secrets CLI Manager
 
-
-A Node.js CLI tool to securely authenticate users via GitHub OAuth and manage secrets associated with an organization.  
-Built using Express, Sequelize (SQLite), Passport.js, and Commander.js.
+This project is a Secrets Management application that allows users to log in via GitHub OAuth, manage secrets securely per organization, and access those secrets through a CLI tool. A CLI tool to securely authenticate users via GitHub OAuth and manage secrets associated with an organization.
 
 ---
 

@@ -51,12 +51,18 @@ node cli.js login
 
 ```
 node cli.js secrets
+
+🔐 Secrets:
+1. apiKey: 123456
+2. dbPassword: supersecret
 ```
 
 ### Create a secret
 
 ```
 node cli.js create-secret -k API_KEY -v 123456
+
+✅ Secret created successfully: { key: 'Key', value: 'Value' }
 ```
 
 ## Usage
